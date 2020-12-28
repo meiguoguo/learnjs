@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="test">    
+        <p>test</p>
+    </div>
+    <script>
+        const oDiv = document.querySelector('#test')
+        console.log(oDiv.nodeType)  // 1
+        console.log(oDiv.nodeName)
+        console.log(oDiv.nodeValue)
+       // const oChild = oDiv.firstChild;
+        const oChild1 = oDiv.firstElementChild
+       // console.log(oChild.nodeType)
+        console.log(oChild1.nodeType)
+    </script>
+</body>
+</html>

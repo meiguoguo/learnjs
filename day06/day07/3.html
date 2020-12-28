@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test1 {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div id='myDiv'>Test</div>
+    <label for="username">test</label><input name='username' type="text" />
+    <script>
+        const oDiv = document.querySelector("#myDiv")
+        console.log(oDiv.id)
+        oDiv.className = "test1"
+        console.log(oDiv.className)
+    </script>
+
+</body>
+</html>
